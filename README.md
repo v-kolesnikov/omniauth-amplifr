@@ -1,0 +1,1 @@
+# Omniauth::Amplifr
