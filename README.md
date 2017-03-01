@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/v-kolesnikov/omniauth-amplifr.svg?branch=master)](https://travis-ci.org/v-kolesnikov/omniauth-amplifr)
+
 # OmniAuth Amplifr
 
 [OmniAuth](https://github.com/omniauth/omniauth) [OAuth2](https://github.com/intridea/omniauth-oauth2) strategy for [Amplifr](https://amplifr.com)
