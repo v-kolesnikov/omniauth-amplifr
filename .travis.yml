@@ -1,11 +1,18 @@
 sudo: false
-
 language: ruby
-
 rvm:
-  - 1.9.3
-  - 2.3.1
-  - 2.4.0
-  - jruby-head
+- 2.3.1
+- 2.4.0
+
+cache: bundler
 
 before_install: gem install bundler
+
+deploy:
+  provider: rubygems
+  api_key:
+    secure: CwHxWgUGvGnUELm9PTMSS8WP1IF+19JdZ3bJygTVn1Pg61F0/W0x0stnYH1qyQsDBcCVHsLrU5v94CgRuk8K9Icp+nAvwY+bFRIkwN3j3/CXeT/YT735+l0wLimD//oz0wTvTdgvA49Q6VE/G+U2pWlRqpmmecnk9oa7q/mjxutX3b2UHjGDsAM+46rmSa7S9MILwmg7eiw9cv7szaIx5mS0Q8S9ZaPaQDQ+zruUl9Iciaan0UfxbBiXKKOVe8XImi8W3YVTSUmgHNXXchX3KhIViTDFntL8fkSsqm37IcReHpLxoY57v6Au/v+PKrYTnR0AzUL15xD6h7bKke0I2J9y+FFE17x4/0K+hkMyOEabQ+Nygooa2Uja5qowsAC98Q0kSv411LzsqBiQXPT4Fpeo489gfV3FnkZ0FZkCHlagUYJqF2bIm1yCxV1JH2Rz4Zh75BwKnLm5/wOSQaV3Scw8YZlGKmUAGZOfjOQSFDGsGNvf76Fb0cOpmBScVkUdbXPLjKYLn10tVmlCT//udo5cSFwAgFxf/gGw4px7EUDP3puwNsIfEKcfo6dEk5h+FcDabu1VKv9IznF+40ckxBF7eqYwnUfQkPpn62ySbUSWluNCbs2DvDON3LBURzLW59Y3TFy1/SGR3hKS1OJmtve5CBUpUaO5ZMPanxn9nms=
+  gem: omniauth-amplifr
+  on:
+    tags: true
+    repo: v-kolesnikov/omniauth-amplifr
