@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/omniauth-amplifr.svg)](https://badge.fury.io/rb/omniauth-amplifr)
 [![Build Status](https://travis-ci.org/v-kolesnikov/omniauth-amplifr.svg?branch=master)](https://travis-ci.org/v-kolesnikov/omniauth-amplifr)
 
 # OmniAuth Amplifr
